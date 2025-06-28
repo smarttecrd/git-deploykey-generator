@@ -3,7 +3,6 @@ id_rsa*
 *.pub
 *.pem
 *.key
-github_deploy_*
 
 # === Editor backup/temporary files ===
 *.bak
