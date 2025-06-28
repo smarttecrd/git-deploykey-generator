@@ -26,7 +26,7 @@ This is an interactive Bash script to help you generate SSH deploy keys, configu
 
 ```bash
 chmod +x deploykey-setup.sh
-./deploy-key.sh
+./deploykey-setup.sh
 ```
 
 The script will prompt you for:
@@ -54,7 +54,7 @@ If you want to download just the script without cloning the full repository:
 ```bash
 curl -O https://raw.githubusercontent.com/smarttecrd/github-deploykey-setup/main/deploykey-setup.sh
 chmod +x deploykey-setup.sh
-./deploy-key.sh
+./deploykey-setup.sh
 ```
 
 ---
