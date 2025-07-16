@@ -1,4 +1,4 @@
-# Github-DeployKey-Setup Script
+# Github-DeployKey-Script
 
 This is an interactive Bash script to help you generate SSH deploy keys, configure GitHub SSH access using a custom alias, and optionally clone private repositories securely.
 
@@ -25,8 +25,8 @@ This is an interactive Bash script to help you generate SSH deploy keys, configu
 ## 🚀 Usage
 
 ```bash
-chmod +x deploykey-setup.sh
-./deploykey-setup.sh
+chmod +x github-deploykey.sh
+./github-deploykey.sh
 ```
 
 The script will prompt you for:
@@ -52,9 +52,9 @@ This script stores SSH keys locally in `~/.ssh/`. It does **not** upload or shar
 If you want to download just the script without cloning the full repository:
 
 ```bash
-curl -O https://raw.githubusercontent.com/smarttecrd/github-deploykey-setup/main/deploykey-setup.sh
-chmod +x deploykey-setup.sh
-./deploykey-setup.sh
+curl -O https://raw.githubusercontent.com/smarttecrd/github-deploykey-script/main/github-deploykey.sh
+chmod +x github-deploykey.sh
+./github-deploykey.sh
 ```
 
 ---
